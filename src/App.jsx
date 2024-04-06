@@ -1,13 +1,14 @@
-import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
-import Index from "./pages/Index.jsx";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+import Index from "./pages/Index";
 
 function App() {
   return (
-    <Router>
-      <Routes>
-        <Route exact path="/" element={<Index />} />
-      </Routes>
-    </Router>
+    <>
+      <Navbar />
+      <Index />
+      <Footer />
+    </>
   );
 }
 

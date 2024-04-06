@@ -51,7 +51,7 @@ const Index = () => {
   };
 
   return (
-    <Box maxWidth="800px" margin="auto" padding={8}>
+    <Box maxWidth="800px" margin="auto" marginTop={8} padding={8}>
       <Heading as="h1" size="2xl" textAlign="center" marginBottom={8}>
         Particles
       </Heading>
