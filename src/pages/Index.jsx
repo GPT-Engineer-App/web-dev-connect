@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Box, Heading, Text, Input, Stack, Avatar, Badge, Button, Wrap, WrapItem, useDisclosure, Modal, ModalOverlay, ModalContent, ModalHeader, ModalCloseButton, ModalBody, FormControl, FormLabel, Textarea, ModalFooter } from "@chakra-ui/react";
 import { FaSearch } from "react-icons/fa";
+import Footer from "../components/Footer";
 
 const developers = [
   {
